@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo 'Building project...Qlik123'
+                echo 'Building project...'
                 sh 'echo "Simulating build process..."'
             }
         }
