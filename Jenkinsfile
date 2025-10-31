@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo 'Building project...'
+                echo 'Building project...123'
                 sh 'echo "Simulating build process..."'
             }
         }
